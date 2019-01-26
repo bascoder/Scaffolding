@@ -9,6 +9,7 @@ namespace Microsoft.VisualStudio.Web.CodeGenerators.Mvc
     internal static class Constants
     {
         public const string ControllerSuffix = "Controller";
+        public const string ServiceSuffix = "Service";
         public const string ControllersFolderName = "Controllers";
         public const string ViewsFolderName = "Views";
         public const string SharedViewsFolderName = "Shared";
@@ -29,5 +30,6 @@ namespace Microsoft.VisualStudio.Web.CodeGenerators.Mvc
         public const string MvcEmptyControllerTemplate = "EmptyController.cshtml";
         public const string MvcControllerWithActionsTemplate = "ControllerWithActions.cshtml";
         public const string MvcControllerWithContextTemplate = "MvcControllerWithContext.cshtml";
+        public const string ServiceEmptyTemplate = "ServiceEmpty.cshtml";
     }
 }
